@@ -1,0 +1,25 @@
+{
+  "name": "slimshell",
+  "version": "1.0.0",
+  "description": "A slim NodeJS framework for running commands in a shell-like environment",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/adgewalker/slimshell.git",
+  "author": "Adrian Walker <adge.walker@gmail.com>",
+  "license": "BSD-3",
+  "private": false,
+  "scripts": {
+    "build": "tsc --project ./"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "minimist": "^1.2.8",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/minimist": "1.2.3",
+    "@types/node": "^20.7.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  }
+}
